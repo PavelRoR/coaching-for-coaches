@@ -10,6 +10,7 @@
 		color: rgb(255, 255, 255);
 		text-align: center;
 		position relative
+		overflow hidden
 		&:before
 			content url(../img/traners_ellips.png)
 			position absolute
@@ -17,8 +18,9 @@
 			bottom 0
 			left 0
 			right 0
-			width 1328px
+			width 100%
 			margin 0 auto
+			display block
 .slider_wrap
 	position relative
 	&:before
@@ -74,8 +76,10 @@
 	height: 63px;
 	z-index: 237;
 	opacity 1
-	line-height 51px
+	line-height 55px
 	font-size 34px
+	color #fff
+	text-align center
 .owl-controlls
 	position absolute
 	left 0
