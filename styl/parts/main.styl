@@ -5,12 +5,18 @@
 	background-size cover
 	background-repeat no-repeat
 	padding-bottom 120px
-	// height 100vh
-.main_container
-	background-image url(../img/elips_main.png)
-	background-position center bottom
-	background-size cover
-	background-repeat no-repeat
+	position relative
+	&:before
+		content url(../img/elips_main.png)
+		position absolute
+		bottom -7px
+		margin 0 auto
+		left 0
+		right 0
+		display block
+		width 1087px
+	.container
+		position relative
 	// display flex 
 	// align-items center
 	// justify-content center
