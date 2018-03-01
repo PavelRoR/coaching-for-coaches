@@ -1,10 +1,17 @@
-$(document).ready(function () {
-	
-  $( function() {
-    $( "#plan_tabs" ).tabs({
-  show: {  duration: 800 }
-});
-  } );
+$(document).ready(function() {
+
+    $(function() {
+        $("#plan_tabs").tabs({
+            show: {
+                duration: 800
+            }
+        });
+    });
+
+    $('.button').click(function (e) {
+    	e.preventDefault();
+    	alert('Товар ещё не создан!');
+    });
 
 
 
@@ -14,6 +21,5 @@ $(document).ready(function () {
 
 
 
-
-/*Конец документа*/
+    /*Конец документа*/
 });
