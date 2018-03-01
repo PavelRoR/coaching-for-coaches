@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Geometria';
+    src: url('../fonts/Geometria.eot');
+    src: url('../fonts/Geometria.eot') format('embedded-opentype'),
+         url('../fonts/Geometria.woff2') format('woff2'),
+         url('../fonts/Geometria.woff') format('woff'),
+         url('../fonts/Geometria.ttf') format('truetype'),
+         url('../fonts/Geometria.svg#Geometria') format('svg');
+}
+@font-face {
+    font-family: 'GeometriaBold';
+    src: url('../fonts/GeometriaBold.eot');
+    src: url('../fonts/GeometriaBold.eot') format('embedded-opentype'),
+         url('../fonts/GeometriaBold.woff2') format('woff2'),
+         url('../fonts/GeometriaBold.woff') format('woff'),
+         url('../fonts/GeometriaBold.ttf') format('truetype'),
+         url('../fonts/GeometriaBold.svg#GeometriaBold') format('svg');
+}
+@font-face {
+    font-family: 'GeometriaItalic';
+    src: url('../fonts/GeometriaItalic.eot');
+    src: url('../fonts/GeometriaItalic.eot') format('embedded-opentype'),
+         url('../fonts/GeometriaItalic.woff2') format('woff2'),
+         url('../fonts/GeometriaItalic.woff') format('woff'),
+         url('../fonts/GeometriaItalic.ttf') format('truetype'),
+         url('../fonts/GeometriaItalic.svg#GeometriaItalic') format('svg');
+}
+@font-face {
+    font-family: 'GeometriaMedium';
+    src: url('../fonts/GeometriaMedium.eot');
+    src: url('../fonts/GeometriaMedium.eot') format('embedded-opentype'),
+         url('../fonts/GeometriaMedium.woff2') format('woff2'),
+         url('../fonts/GeometriaMedium.woff') format('woff'),
+         url('../fonts/GeometriaMedium.ttf') format('truetype'),
+         url('../fonts/GeometriaMedium.svg#GeometriaMedium') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot') format('embedded-opentype'),
+         url('../fonts/RobotoRegular.woff2') format('woff2'),
+         url('../fonts/RobotoRegular.woff') format('woff'),
+         url('../fonts/RobotoRegular.ttf') format('truetype'),
+         url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+
+*
+    margin: 0
+    padding 0
+    outline none
+    text-decoration none
+.button
+    display block
+    width 263px
+    height 62px
+    margin 0 auto
+    text-decoration none
+    background-image: linear-gradient( 90deg, rgb(255,116,88) 0%, rgb(240,152,25) 100%);
+    font-size: 20px;
+    font-family: "GeometriaBold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 62px;
+    border-radius 31px
+    text-align center
+    &:hover
+        color rgb(255,255,255)
+        text-decoration none        
+        background-image: linear-gradient( 270deg, rgb(255,116,88) 0%, rgb(240,152,25) 100%);
+    &:focus
+        color rgb(255,255,255)
+        text-decoration none
+        
+
+@import 'parts/main'
